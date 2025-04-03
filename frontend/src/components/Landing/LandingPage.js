@@ -18,14 +18,14 @@ const LandingPage = () => {
         <div className="hero-content">
           <h1>Take Control of Your Finances</h1>
           <p className="hero-subtitle">Track expenses, set goals, and make smarter financial decisions</p>
-          <div className="cta-buttons">
+          {/* <div className="cta-buttons">
             <button className="cta-button primary" onClick={() => navigate('/register')}>
               Start For Free
             </button>
             <button className="cta-button secondary" onClick={() => navigate('/login')}>
               View Demo
             </button>
-          </div>
+          </div> */}
           <div className="hero-stats">
             <div className="stat-item">
               <span className="stat-number">10K+</span>
